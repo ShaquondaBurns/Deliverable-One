@@ -1,0 +1,111 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+    margin-block-end: 1em;
+}
+
+h1{padding: 15px; font-size: 25px;font-weight: 600;}
+
+body{
+    background-color: #e8ded9;
+    font-family: 'Roboto', sans-serif;;
+}
+nav{
+    background:#e8ded9 ;
+    padding: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #5b8c6f;
+    text-decoration: none;
+}
+ 
+
+li :hover{color: #61c386;}
+
+.menu li{
+    padding:2px ;
+}
+
+.button {
+    background-color:#61c386 ;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    padding: .5em;
+
+}
+
+.button2{
+    background-color:#61c386 ;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    padding: .5em;
+}
+
+.button{
+    width: 100%; display:block; text-align: center; margin-right: 1em;
+}
+
+.button2{
+ display: block; text-align: center; margin-left: 1em; margin-right: 1em; margin-top: 1em;
+}
+
+
+.button2 {
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    padding: .5em;
+}
+
+ .button:hover{
+     background-color: #f7e966; color: #61c386;
+ }
+ 
+ .button2:hover{background-color: #f7e966; color: #61c386;}
+
+ 
+ p{font-size: 27px; margin-left: .5em; margin-right: 1em; margin-top: 1em; font-weight: 300; width: 90%;}
+
+    h2 {font-size: 15px; margin-left: 1em; margin-top: 2em; width: 70%; font-weight: 400;}
+
+    .imgpic {
+        width: 40%;
+        height: auto;
+        position: center;
+        display: none;;
+    }
+    
+
+   
+
+/* desktop menu */
+
+@media all and (min-width:768px){
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -3.5em;}
+        .button{ margin-top: -.5em; width: auto;}
+        .button2{width: 16%; padding:1em;}
+        .imgpic{ display: flex;
+            margin-left: 30em; margin-left:45em; margin-top: -18em; padding: 2em; margin-right: 2em;
+        }
+
+        p{margin-top: 110px; font-size: 40px; font-weight: 600; margin-right: -45em;}
+        h2{font-size: 15px;}
+ }
